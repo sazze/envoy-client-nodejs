@@ -1,5 +1,5 @@
 {
-  "name": "sz-envoy-nodejs",
+  "name": "@sazze/envoy-nodejs",
   "version": "1.1.0",
   "description": "envoy client libraries for nodejs",
   "main": "index.js",
@@ -7,28 +7,28 @@
     "test": "make test"
   },
   "publishConfig": {
-    "registry": "http://npm.sazze.com/"
+    "registry": "http://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlab.sazze.com/en/envoy-client-nodejs"
+    "url": "http://github.com/sazze/envoy-client-nodejs"
   },
   "keywords": [
     "envoy",
     "email"
   ],
   "author": "Craig Thayer <cthayer@sazze.com>",
-  "license": "Copyright 2014 by Sazze, Inc.  All rights reserved",
+  "license": "MIT",
   "dependencies": {
     "hashids": "^1.0.1",
     "lodash": "^2.4.1",
     "moment": "^2.8.4",
     "request": "^2.48.0",
-    "sz-envoy-thrift": "=0.0.2"
+    "@sazze/envoy-thrift": "=0.0.2"
   },
   "devDependencies": {
     "chai": "^1.10.0",
     "mocha": "^2.0.1",
-    "sz-thrift": "^1.0.0"
+    "@sazze/thrift": "^1.0.0"
   }
 }

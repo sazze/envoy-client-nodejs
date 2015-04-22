@@ -9,8 +9,8 @@ var request = require('request');
 var moment = require('moment');
 var http = require('http');
 var _ = require('lodash');
-var thrift = require('sz-thrift');
-var envoyThrift = require('sz-envoy-thrift');
+var thrift = require('@sazze/thrift');
+var envoyThrift = require('@sazze/envoy-thrift');
 
 describe('email types', function () {
   it('should be exported', function () {
